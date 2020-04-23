@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework1</title>
+    <style>
+body {background-color: rgba(230, 153, 255, 0.7);
+    font-family: Helvetica, sans-serif;}
+h1, strong  {color: rgb(77, 0, 102);}
+</style>
+</head>
+<body>
+   <h1>Basic Git Commands</h1>
+    <ul>
+      <li>
+        <strong>git config --global user.name blabla</strong> > встановлює ім'я користувача
+      </li>
+      <li>
+        <strong>git config --global user.email blabal@bla</strong> > встановлює електронну пошту користувача
+      </li>
+      <li>
+        <strong>git init</strong> > створює локальний репозиторій
+      </li>
+      <li>
+        <strong>git status</strong> > перелічує файли, які змінені, та ті, які ще потрібно додати в індекс чи закомітити
+      </li>
+      <li>
+          <strong>git add &lt;filename&gt;</strong> > додає певний файл до staging area
+      </li>
+      <li><strong>git add .</strong> > додає всі файли до staging area</li>
+      <li>
+        <strong>git commit -m "Commit message"</strong> зберігає індексовані зміни (але ще не до віддаленого сховища)
+      </li>
+      <li><strong>git log</strong> > дозволяє переглянути історію комітів</li>
+      <li>
+        <strong>git checkout</strong> > переходить від одної гілки до іншої, дозволяє пересуватись по комітах
+      </li>
+      <li>
+        <strong>git branch</strong> > показує список всіх гілок репозиторія, і вказує  на якій гілці ви знаходитесь, дозволяє створювати нові, перейменовувати та видаляти
+      </li>
+      <li>
+        <strong>git push</strong> > надсилає зміни локального репозиторія до віддаленого сховища
+      </li>
+      <li>
+        <strong>git pull</strong> git pull > можна отримати зміни та злити віддалену гілку з  поточною
+      </li>
+      <li>
+        <strong>git merge</strong> > об'єднує гілку віддаленого сховища з поточною гілку локального сховища
+      </li>
+      <li><strong>git fetch</strong> > завантажує дані до локального сховища, автоматично не зливає їх з локальною гілкою </li>
+      <li><strong>git clone</strong> > клонує віддалений репозиторій</li>
+    </ul>
+    <p> Файл <strong>.gitignore</strong> служить для зазначення в ньому файлів і папок, які необхідно приховати від системи контролю версій git.
+      </p>
+    <h1>Advanced Git Commands</h1>
+    <ul>
+      <li>
+        <strong>git revert</strong> > створює "антикомміт" для зазначеного комміту, у такий спосіб скасовуючи зміни, внесені в ньому
+      </li>
+      <li>
+        <strong>git reset</strong> > видаляє всі зміни
+      </li>
+      <li>
+        <strong>git rebase</strong> > дає можливість взяти всі зміни, що були в комітах одної гілки та відтворити їх на іншій гілці
+      </li>
+      <li>
+        <strong>git cherry-pick</strong> > використовується для перенесення комітів з одної гілки на іншу
+      </li>
+      <li>
+        <strong>git stash</strong> > зберігає тимчасово зміни у файлах
+      </li>
+    </ul> 
+</body>
+</html>
