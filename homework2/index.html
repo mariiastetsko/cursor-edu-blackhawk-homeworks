@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple HTML-page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Поняття Front-end. HTML</h1>
+    <table class="content-table">
+      <thead>
+        <tr>
+          <th>First name</th>
+          <th>Last name</th>
+          <th>Phone number</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Peter</td>
+          <td>Lang</td>
+          <td>01653765132</td>
+          <td>peter.lang@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Anna</td>
+          <td>Seeger</td>
+          <td>01632116370</td>
+          <td>anna.schmidth@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Corinna</td>
+          <td>Stifter</td>
+          <td>01695407564</td>
+          <td>corinna.stifter@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Anton</td>
+          <td>Baumann</td>
+          <td>01791239745</td>
+          <td>anton.baumann@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Sue</td>
+          <td>Smith</td>
+          <td>01763609764</td>
+          <td>sue.smith@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <form method="GET">
+      <h2>Information about you</h2>
+      <p>
+        <input type="text" placeholder="Enter your first name*" required />
+      </p>
+      <p>
+        <input type="text" placeholder="Enter your last name*" required />
+      </p>
+      <h3>Your gender:*</h3>
+      <input type="radio" id="female" name="gender" value="female" checked required/>
+      <label for="female">Female</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+
+      <h3>Ask a question:</h3>
+      <div>
+        <textarea
+          name="text"
+          id="ask-question"
+          cols="55"
+          rows="10"
+          placeholder="Write something..."
+        ></textarea>
+      
+        <h3>Choose your city:*</h3>
+      </div>
+      <select name="choice" id="city" required>
+        <option value="choice" selected disabled>You are from</option>
+        <option value="Lviv"> Lviv </option>
+        <option value="Kyiv"> Kyiv</option>
+        <option value="Kharkiv">Kharkiv</option>
+        <option value="Odessa"> Odessa</option>
+      </select>
+      <h3>Choose language:</h3>
+      <div>
+        <input type="checkbox" id="ukrainian" name="language" />
+        <label for="ukrainian">Українська</label>
+      </div>
+      <div>
+        <input type="checkbox" id="russian" name="language" />
+        <label for="russian">Русский</label>
+      </div>
+      <div>
+        <input type="checkbox" id="english" name="language" />
+        <label for="english">English</label>
+      </div>
+      <div>
+        <input type="checkbox" id="english" name="language" />
+        <label for="english">Deutsch</label>
+      </div>
+      <p><input class="button" type="submit" value="Submit" /></p>
+    </form>
+  </body>
+</html>
