@@ -57,6 +57,10 @@ td.bottom-line-right {
   display: inline-block;
 }
 
+.first-table .dots{
+  background-color: #c1c1c1;
+}
+
 td.third-column {
   width: 26px;
 }
@@ -82,7 +86,8 @@ td.third-column {
 
 [type="text"] {
   width: 450%;
-  margin: 0;
+  margin-top: -5px;
+  margin-bottom: -5px;
   color: #ffffff;
   font-size: 14px;
   border-radius: 6px;
