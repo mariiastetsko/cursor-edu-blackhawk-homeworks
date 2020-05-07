@@ -81,9 +81,10 @@ td.third-column {
 }
 
 [type="text"] {
-  width: 550%;
+  width: 450%;
   margin: 0;
   color: #ffffff;
+  font-size: 14px;
   border-radius: 6px;
   border-style: hidden;
   height: 30px;
@@ -93,12 +94,12 @@ td.third-column {
   right: 125px;
   background-image: url(./search.svg);
   background-repeat: no-repeat;
-  background-size: 14px;
+  background-size: 16px;
   background-position: 4% center;
   }
 
   [placeholder="Search..."]{
-    padding-left: 25px;
+    padding-left: 30px;
   }
 
   
