@@ -8,7 +8,7 @@ body {
       rgba(213, 32, 71, 0.8) 0%,
       rgba(238, 61, 27, 0.8) 100%
     ),
-    url("/images/background.png");
+    url("../images/background.png");
   color: rgb(255, 255, 255);
   background-size: cover;
   background-repeat: no-repeat;
@@ -49,14 +49,13 @@ body {
   display: flex;
   align-items: center;
   margin-left: 80px;
-   
 }
 
 .nav-menu li {
   display: inline-block;
   padding: 0 10px;
   margin: 0;
-  }
+}
 
 .first-link {
   font-weight: bold;
@@ -80,12 +79,8 @@ a {
   justify-content: space-between;
   align-items: center;
   margin-left: 40px;
- 
+  cursor: pointer;
 }
-
-/* .language-img {
-  margin-left: 100px;
-} */
 
 .language-name {
   margin-left: 10px;
@@ -99,7 +94,6 @@ a {
   border-top: 8px solid white;
   position: relative;
   margin-left: 7px;
-  cursor: pointer;
 }
 
 .login-button {
@@ -150,10 +144,10 @@ a {
 
 .main-content p {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 550;
   font-size: 24px;
   line-height: 150%;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.02em;
   text-align: center;
   margin-top: 40px;
   max-width: 540px;
