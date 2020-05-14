@@ -1,13 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Das Coronavirus (Covid-19) hat sich vermutlich ab November 2019 in der chinesischen Stadt Wuhan ausgebreitet. Erst Ende Dezember kamen Berichte an die Öffentlichkeit und China meldete Fälle einer unbekannten Lungenerkrankung an die Weltgesundheitsorganisation. Am 28. Januar gab es den ersten Fall in Deutschland, ab dem 22. März gibt es in Deutschland eine bundesweite Ausgangsbeschränkung.
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW5. Saving money</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-wrapper">
+        <div class="header-text">
+          <h2>Stay focused on saving money</h2>
+          <p>
+            It is important to stay focused on saving money in any way you can.
+            We help you monitor your spending habits so you can easily spot and
+            cut any unnecessary expenses. Simply join today to get started!
+          </p>
+          <div class="header-icons">
+            <img src="./images/google-play.svg" alt="Google Play" />
+            <img src="./images/app-store.svg" alt="App Store" />
+            <img src="./images/windows.svg" alt="Windows" />
+          </div>
+        </div>
+        <div class="header-image">
+          <img src="./images/slider.png" alt="Header Slider" />
+        </div>
+      </div>
+    </header>
+    <section class="contact">
+      <div class="contact-wrapper">
+        <div class="contact-text">
+          <h2>Contact</h2>
+          <p>
+            Questions or concerns? Just fill out the form below and our support
+            team will get back to you within 24 hours
+          </p>
+        </div>
+        <div class="contact-form">
+          <form>
+            <input type="text" placeholder="First Name" required />
+            <input type="text" placeholder="Last Name" required />
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone Number"
+              required
+            />
+            <select name="select service" id="service" required>
+              <option value="select service" selected disabled
+                >Select Service</option
+              >
+              <option value="Overview">Overview</option>
+              <option value="Features">Features</option>
+              <option value="Technology">Technology</option>
+            </select>
+            <button type="submit" aria-label="Submit">submit now</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
-Was sind die Symptome der vom Virus ausgelösten Lungenkrankheit Covid-19? Wie kann man sich schützen? Was macht die Pandemie mit uns? Antworten auf diese und andere Frage finden Sie auf unserer Website.
-</body>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <div class="footer-adress">
+          <h4>Adress</h4>
+          <p>Pipang Ltd, Griva Digeni,</p>
+          <p>81-83 Jacovides Tower, 1st</p>
+          <p>Floor 1090 Picosia USA</p>
+        </div>
+        <div class="footer-services">
+          <h4>Services</h4>
+          <p>Overview</p>
+          <p>Features</p>
+          <p>Technology</p>
+          <p>Terms & Conditions</p>
+          <p>Privacy</p>
+        </div>
+        <div class="footer-communications-tools">
+          <h4>Get in Touch</h4>
+          <p>info@cloudbudget.com</p>
+          <p>+1 844-721-7120</p>
+          <div class="social-media">
+            <img src="./images/facebook.svg" alt="Facebook" />
+            <img src="./images/linkendin.svg" alt="Linkendin" />
+            <img src="./images/twitter.svg" alt="Twitter" />
+          </div>
+        </div>
+        <div class="footer-support-cards">
+          <h4>We support</h4>
+          <img src="./images/cards.png" alt="Support Cards" />
+        </div>
+      </div>
+      <p class="copyright">Copyright 2018 CloudBudget</p>
+    </footer>
+  </body>
 </html>
