@@ -18,11 +18,17 @@ button {
   cursor: pointer;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Helvetica", sans-serif;
 }
 
-p, a, li, h6  {
+p,
+a,
+li,
+h6 {
   font-family: "Avenir", sans-serif;
 }
 
@@ -143,7 +149,6 @@ main {
   margin-top: 70px;
 }
 
-
 /* Second section. Storage bank */
 .second-section {
   margin-right: 10%;
@@ -203,7 +208,8 @@ main {
 }
 
 .third-section p {
-  font: 16px normal 500;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 160%;
   color: #4b5d68;
 }
@@ -352,18 +358,16 @@ main {
 
 .fourth-section-testimonials .slider img:last-child {
   margin-left: 10px;
-
 }
 
-  .line {
-    display: block;
-    max-width: 1600px;
-    height: 3px;
-    background-color: #9c69e2;
-    opacity: 0.2;
-    margin-top: 150px;
-  }
-
+.line {
+  display: block;
+  max-width: 1600px;
+  height: 3px;
+  background-color: #9c69e2;
+  opacity: 0.2;
+  margin-top: 150px;
+}
 
 /* Footer */
 
