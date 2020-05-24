@@ -1,0 +1,458 @@
+* {
+  box-sizing: border-box;
+  color: #000000;
+}
+
+body {
+  min-width: 1100px;
+  min-height: 600px;
+}
+
+button,
+input {
+  border: none;
+}
+
+span,
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+
+h1,
+h3,
+h6,
+li {
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.wrapper {
+  max-width: 1290px;
+  min-height: 100vh;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+
+.menu {
+  min-width: 132px;
+  height: min-content;
+  background-color: #000000;
+  border-radius: 24px;
+  box-shadow: 24px 9px 44px -8px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.menu .logo-text {
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: 700;
+  font-size: 64px;
+  color: #ffffff;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+.menu .nav-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23px;
+  cursor: pointer;
+}
+
+.menu .nav-icons div {
+  margin-top: 60px;
+}
+
+.menu .login-icon {
+  margin-top: 220px;
+  cursor: pointer;
+}
+
+/* First section */
+.first-section {
+  min-width: 48.5%;
+  min-height: 100vh;
+  margin-left: 70px;
+  margin-top: 32px;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  position: relative;
+  padding-bottom: 45px;
+  padding-top: 60px;
+  background: #f5f5f7;
+  border-radius: 14px;
+}
+
+.header-img {
+  position: absolute;
+  right: 104px;
+  top: -32px;
+}
+
+.header h1 {
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.header p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.header h1,
+.header p {
+  margin-left: 35px;
+  margin-top: -3px;
+}
+
+/* Section. My courses */
+.my-courses {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.my-course {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 500px;
+  background: #f5f5f7;
+  border-radius: 14px;
+  padding: 8px 22px 8px 8px;
+}
+
+.course-img {
+  width: 64px;
+  height: 64px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+.course-img img {
+  display: block;
+  margin: auto;
+  margin-top: 16px;
+}
+
+.my-course .my-course-text {
+  margin-left: -8px;
+  margin-top: -4px;
+}
+
+.my-course .my-course-text h6 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.my-course-status {
+  position: relative;
+}
+
+.my-course-status span {
+  position: absolute;
+  left: 9px;
+  top: 12px;
+}
+
+.course-button button,
+.premium-banner-text button {
+  background: #000000;
+  height: 42px;
+  padding-left: 32px;
+  padding-right: 32px;
+  color: #ffffff;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.course-button button:hover,
+.premium-banner-text button:hover {
+  background: #ffffff;
+  color: #000000;
+  border: 2px solid #000;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.course-button button:active,
+.premium-banner-text button:active {
+  background: #a5a2a2;
+  color: #000000;
+  border: 2px solid #000;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.arrows img:last-child {
+  margin-left: 15px;
+}
+
+.arrows {
+  cursor: pointer;
+}
+
+/* Courses */
+
+.courses {
+  margin-top: 43px;
+  margin-bottom: 20px;
+}
+
+.courses h3 {
+  font-weight: 800;
+  font-size: 24px;
+  margin-left: 2px;
+}
+
+.courses ul li {
+  display: inline-block;
+  margin-top: 27px;
+  margin-left: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.courses ul li:not(:first-child) {
+  opacity: 0.3;
+  margin-left: 28px;
+}
+
+/* Blocks with different courses */
+
+.course {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #f5f5f7;
+  border-radius: 14px;
+  padding: 8px 22px 8px 8px;
+  margin-top: 16px;
+}
+
+.course-text h6 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.course-text {
+  margin-left: -5px;
+}
+
+.course-duration {
+  margin-left: 30px;
+}
+
+.course-rating {
+  margin-left: 15px;
+}
+
+/* Second-section */
+.second-section {
+  min-width: 38%;
+  min-height: 100vh;
+  margin-left: 63px;
+  margin-top: 32px;
+}
+
+.my-nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.my-nav img {
+  cursor: pointer;
+}
+
+.my-nav input[type="text"] {
+  background: #f5f5f7;
+  border-radius: 8px;
+  min-width: 300px;
+  font-size: 16px;
+}
+
+.my-nav .search {
+  position: absolute;
+  left: 15px;
+  top: 8px;
+}
+
+.my-nav .bell {
+  margin-top: -10px;
+  margin-left: 35px;
+}
+
+.my-nav .photo {
+  margin-left: 15px;
+  margin-top: -3px;
+}
+
+.my-nav .arrow {
+  margin-right: 52px;
+}
+
+/* Stats boxes */
+.stats-boxes {
+  margin-top: 23px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.stats-boxes .in-progress {
+  margin-left: 23px;
+}
+
+.stats-boxes .in-progress p {
+  margin-right: 30px;
+}
+
+.stats-boxes .completed,
+.in-progress {
+  width: 45%;
+  background: #f5f5f7;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.stats-boxes span {
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 102px;
+}
+
+.stats-boxes p {
+  font-size: 16px;
+  line-height: 24px;
+  width: 80px;
+}
+
+/* Your statistics */
+
+.your-statistic {
+  margin-top: 35px;
+}
+
+.your-statistic h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.your-statistic h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.your-statistic ul li {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 26px;
+  display: inline-block;
+  margin-left: 3px;
+  margin-top: 13px;
+  cursor: pointer;
+}
+
+.your-statistic ul li:last-child {
+  opacity: 0.3;
+  margin-left: 22px;
+}
+
+.your-statistic-wrapper .weekly-button button {
+  background: #f5f5f7;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  margin-right: 50px;
+  margin-top: 13px;
+}
+
+.your-statistic-wrapper .weekly-button button::after {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border: solid 1px #000000;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  content: "";
+  margin-left: 10px;
+  position: relative;
+  top: -4px;
+  transform: rotate(-135deg);
+  cursor: pointer;
+}
+
+.your-statistic-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.your-statistic img {
+  margin-top: 30px;
+}
+
+/* premium banner */
+
+.premium-banner {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  background: #f5f5f7;
+  border-radius: 14px;
+  margin-top: 50px;
+  padding-bottom: 15px;
+}
+
+.premium-banner-text {
+  margin-left: -12px;
+  margin-top: 20px;
+}
+
+.premium-banner-text h3 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.premium-banner-text p {
+  font-size: 16px;
+  line-height: 24px;
+  width: 179px;
+}
+
+.premium-banner-text .go-button {
+  margin-top: 25px;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+.premium-banner-img {
+  align-self: center;
+  margin-left: -25px;
+}
