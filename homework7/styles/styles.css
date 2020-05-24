@@ -171,7 +171,7 @@ li {
 .my-course-status span {
   position: absolute;
   left: 9px;
-  top: 12px;
+  top: 15px;
 }
 
 .course-button button,
@@ -315,6 +315,7 @@ li {
   border-radius: 8px;
   min-width: 300px;
   font-size: 16px;
+  padding-left: 50px;
 }
 
 .my-nav .search {
@@ -324,8 +325,14 @@ li {
 }
 
 .my-nav .bell {
-  margin-top: -10px;
-  margin-left: 35px;
+  position: relative;
+  margin-left: 25px;
+}
+
+.my-nav .bell-notification {
+  position: absolute;
+  left: 15px;
+  bottom: 28px;
 }
 
 .my-nav .photo {
