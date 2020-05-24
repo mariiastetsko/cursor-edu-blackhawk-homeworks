@@ -77,7 +77,8 @@
           </nav>
 
           <!-- Figma -->
-          <div class="course">
+        <div class="course-container">
+          <div class="course figma">
             <div class="course-img">
               <img src="./images/figma-icon.svg" alt="Figma Icon" />
             </div>
@@ -99,7 +100,7 @@
           </div>
 
           <!-- Photography -->
-          <div class="course">
+          <div class="course photography">
             <div class="course-img">
               <img src="./images/photography-icon.svg" alt="Figma Icon" />
             </div>
@@ -121,7 +122,7 @@
           </div>
 
           <!-- Master Instagram -->
-          <div class="course">
+          <div class="course instagram">
             <div class="course-img">
               <img src="./images/instagram-icon.svg" alt="Instagram Icon" />
             </div>
@@ -143,7 +144,7 @@
           </div>
 
           <!-- Basics of drawing -->
-          <div class="course">
+          <div class="course drawing">
             <div class="course-img">
               <img src="./images/drawing-icon.svg" alt="Pencil Icon" />
             </div>
@@ -165,7 +166,7 @@
           </div>
 
           <!-- Photoshop -->
-          <div class="course">
+          <div class="course photoshop">
             <div class="course-img">
               <img src="./images/photoshop-icon.svg" alt="Photoshop Icon" />
             </div>
@@ -185,6 +186,7 @@
               <button type="button" aria-label="View More">View more</button>
             </div>
           </div>
+        </div>
         </section>
       </div>
 
@@ -215,8 +217,13 @@
             <li>Learning hours</li>
             <li>My courses</li>
           </ul>
-          <div class="weekly-button">
-            <button>Weekly</button>
+          <div class="statistic-period">
+            <select class="select-period" name="period" id="period">
+              <option value="weekly">Weekly</option>
+              <option value="monthly">Monthly</option>
+              <option value="daily">Daily</option>
+          </select>
+          <span class="select-arrow"></span>
           </div>
           </div>
           <img src="./images/graphic.png" alt="My Courses Statistic">
