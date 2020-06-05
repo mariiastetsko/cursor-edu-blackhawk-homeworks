@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  min-height: 100vh;
+}
+
+button,
+input {
+  border: none;
+}
+
+span,
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+
+h1,
+h3,
+h6,
+li {
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.wrapper {
+  max-width: 1290px;
+  min-height: 100vh;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
